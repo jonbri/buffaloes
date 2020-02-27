@@ -1,0 +1,16 @@
+{
+  "name": "buffaloes",
+  "version": "0.0.1",
+  "description": "Create an infinite sentence with a single word using homonyms and homophones",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonbri/buffaloes.git"
+  },
+  "author": "Jonathan Brink <jonathandavidbrink@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonbri/buffaloes/issues"
+  },
+  "homepage": "https://github.com/jonbri/buffaloes#readme",
+  "bin": "./index.js"
+}
