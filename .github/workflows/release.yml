@@ -18,8 +18,8 @@ jobs:
           node-version: "lts/*"
       - name: Install dependencies
         run: yarn install --frozen-lockfile
-      # - name: Release
-      #   env:
-      #     NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      #   run: npx semantic-release
+      - name: Release
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npx semantic-release
 
