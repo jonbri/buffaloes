@@ -12,5 +12,7 @@
     "url": "https://github.com/jonbri/buffaloes/issues"
   },
   "homepage": "https://github.com/jonbri/buffaloes#readme",
-  "bin": "./index.js"
+  "bin": {
+    "buffaloes": "index.js"
+  }
 }
